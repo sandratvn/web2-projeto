@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1><center>Corte</center></h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="codigo">Código:</label>
+                <input type="text" id="codigo" name="codigo">                
+            </div>
+
+            <div class="form-group">
+                <label for="modelo">Modelo:</label>
+                <select name="modelo" id="modelo">
+                    <option value="02">02 Esquine</option>
+                    <option value="021">021 Wide Leg</option>
+                    <option value="035">035 Wide Leg cargo</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="data-corte">Data:</label>
+                <input type="date" id="data-corte" name="data-corte">                
+            </div>
+
+            <div class="form-group">
+                <label for="tecido">Tecido:</label>
+                <input type="text" id="tecido" name="tecido">                
+            </div>
+
+            <div class="form-group">
+                <label for="metragem">Metragem utilizada:</label>
+                <input type="number" id="metragem" name="metragem" step="0.01">                
+            </div>
+
+            <div class="form-group">
+                <label for="largura">Largura tecido:</label>
+                <input type="number" id="largura" name="largura" step="0.01">                
+            </div>
+
+            <div class="form-group">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" step="1">                
+            </div>
+
+            <button type="submit" class="submit-button">Salvar</button><br>
+            <br>
+
+            <a href="logado.html">Início</a><br>
+            <br>
+            <a href="costura.html">Costura</a>
+            <p></p>
+        </form>
+    </div>
+
+</body>
+</html>

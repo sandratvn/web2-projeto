@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1><center>Aprontamento</center></h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="codigo">Código:</label>
+                <input type="text" id="codigo" name="codigo">                
+            </div>
+
+            <div class="form-group">
+                <label for="data-inicio">Data início:</label>
+                <input type="date" id="data-inicio" name="data-inicio">                
+            </div>
+
+            <div class="form-group">
+                <label for="data-fim">Data fim:</label>
+                <input type="date" id="data-fim" name="data-fim">                
+            </div>
+
+            <div class="form-group">
+                <label for="faccao">Aprontamento:</label>
+                <select name="facao" id="faccao">
+                    <option value="A">Bianca</option>
+                    <option value="B">Bismarck</option>
+                    <option value="C">Nailson</option>
+                </select>               
+            </div>
+
+            <div class="form-group">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" name="quantidade" step="1">                
+            </div>
+
+            <button type="submit" class="submit-button">Salvar</button><br>
+            <br>
+
+            <a href="logado.html">Início</a><br>
+                   
+        </form>
+    </div>
+
+</body>
+</html>
